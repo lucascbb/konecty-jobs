@@ -1,6 +1,7 @@
 
 # Projeto de Teste Técnico Konecty
 
+
 Este projeto é uma aplicação full-stack desenvolvida como parte de um teste técnico para a empresa Konecty. A aplicação inclui um frontend desenvolvido em TypeScript, um backend em Node.js com TypeScript. A seguir, estão os detalhes do projeto.
 
 ## Funcionalidades
