@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #F4F4F4;
+}
+
+/* COMFORTAA FAMILY */
+@font-face {
+  font-family: Comfortaa-Light;
+  src: url(./fonts/Comfortaa/Comfortaa-Light.ttf);
+}
+@font-face {
+  font-family: Comfortaa-Regular;
+  src: url(./fonts/Comfortaa/Comfortaa-Regular.ttf);
+}
+@font-face {
+  font-family: Comfortaa-Medium;
+  src: url(./fonts/Comfortaa/Comfortaa-Medium.ttf);
+}
+@font-face {
+  font-family: Comfortaa-SemiBold;
+  src: url(./fonts/Comfortaa/Comfortaa-SemiBold.ttf);
+}
+@font-face {
+  font-family: Comfortaa-Bold;
+  src: url(./fonts/Comfortaa/Comfortaa-Bold.ttf);
+}
+
+.threePoints {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  -webkit-box-orient: vertical; 
+}
+
+.threePointsLine {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden; 
+}
